@@ -56,6 +56,22 @@ export const getCurrentPatchNotesVersion = (): string => {
 // Patch notes data - add new entries at the TOP of this array
 export const PATCH_NOTES: PatchNote[] = [
   {
+    version: "1.2.86",
+    date: "2026-06-22",
+    changes: [
+      {
+        type: "feature",
+        title: "Anki Pitch Accent Numbers",
+        description:
+          "Added Anki settings to show compact pitch accent labels, numbers, and an optional mini graph after revealing vocabulary cards.",
+        link: {
+          route: "/anki-settings",
+          label: "Open Anki Settings",
+        },
+      },
+    ],
+  },
+  {
     version: "1.2.85",
     date: "2026-06-21",
     changes: [
